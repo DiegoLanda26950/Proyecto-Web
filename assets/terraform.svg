@@ -1,0 +1,25 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="tf-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#844FBA" />
+      <stop offset="100%" stop-color="#5C4EE5" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  
+  <!-- Outer container with subtle grid -->
+  <g filter="url(#shadow)">
+    <!-- Terraform Iso Grid Paths -->
+    <!-- Top Left -->
+    <path d="M15,22 L45,5 L45,35 L15,52 Z" fill="url(#tf-grad)" />
+    <!-- Top Right -->
+    <path d="M55,22 L85,5 L85,35 L55,52 Z" fill="url(#tf-grad)" />
+    <!-- Center Mid -->
+    <path d="M35,46 L65,29 L65,59 L35,76 Z" fill="#5C4EE5" />
+    <!-- Bottom Mid -->
+    <path d="M35,80 L65,63 L65,93 L35,110 Z" fill="#844FBA" transform="translate(0, -10)" />
+  </g>
+</svg>

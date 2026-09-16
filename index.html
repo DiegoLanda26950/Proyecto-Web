@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica DEVOPS 00 - Diego Landa</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/terraform.svg" type="image/svg+xml">
+    <!-- Estilos CSS Separados -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Cabecera de la Página -->
+    <header>
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo-badge">DV00</div>
+                <div class="logo-title">DevOps<span>Cloud</span></div>
+            </div>
+            <!-- Alternador de Tema Claro/Oscuro -->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema oscuro/claro">
+                <!-- Icono SVG inyectado con JS -->
+            </button>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        
+        <!-- Sección de Bienvenida e Información -->
+        <section class="hero-section">
+            <div class="hero-info">
+                <h1>Práctica DevOps 00</h1>
+                <p>
+                    Bienvenido a esta guía conceptual simplificada sobre herramientas fundamentales del ecosistema Cloud e Inteligencia Artificial. Diseñada para ser directa, clara y accesible en cualquier dispositivo.
+                </p>
+            </div>
+
+            <!-- Ficha del Alumno Simplificada -->
+            <article class="student-card">
+                <img src="assets/avatar.svg" alt="Avatar de Diego Landa" class="student-avatar" loading="lazy">
+                <div class="student-info">
+                    <h2 class="student-name">Diego Landa</h2>
+                    <div class="student-details">
+                        <span>Práctica: <strong>Practica DEVOPS 00</strong></span>
+                        <span>Asignatura: <strong>DevOps & Cloud</strong></span>
+                        <span>Fecha: <strong>Septiembre 2026</strong></span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Sección de Tecnologías -->
+        <section>
+            <h2 class="tech-section-title">Tecnologías Clave</h2>
+            
+            <div class="tech-grid">
+                
+                <!-- Tarjeta 1: Terraform -->
+                <article class="tech-card terraform">
+                    <div class="tech-header">
+                        <div class="tech-icon-wrapper">
+                            <img src="assets/terraform.svg" alt="Icono Terraform" class="tech-icon" loading="lazy">
+                        </div>
+                        <div class="tech-title-group">
+                            <h3 class="tech-title">Terraform</h3>
+                            <span class="tech-tag">Infraestructura</span>
+                        </div>
+                    </div>
+                    <p class="tech-desc">
+                        Es una herramienta de Infraestructura como Código (IaC) creada por HashiCorp. Te permite definir, aprovisionar y administrar servidores y servicios en la nube de forma segura y consistente usando archivos de configuración declarativos.
+                    </p>
+                </article>
+
+                <!-- Tarjeta 2: Amazon S3 -->
+                <article class="tech-card s3">
+                    <div class="tech-header">
+                        <div class="tech-icon-wrapper">
+                            <img src="assets/aws-s3.svg" alt="Icono Amazon S3" class="tech-icon" loading="lazy">
+                        </div>
+                        <div class="tech-title-group">
+                            <h3 class="tech-title">Amazon S3</h3>
+                            <span class="tech-tag">Almacenamiento</span>
+                        </div>
+                    </div>
+                    <p class="tech-desc">
+                        Es el servicio de almacenamiento de objetos líder de Amazon Web Services (AWS). Está diseñado para guardar y recuperar cualquier cantidad de datos de forma altamente segura, escalable, económica y con una durabilidad extrema.
+                    </p>
+                </article>
+
+                <!-- Tarjeta 3: MCP -->
+                <article class="tech-card mcp">
+                    <div class="tech-header">
+                        <div class="tech-icon-wrapper">
+                            <img src="assets/mcp.svg" alt="Icono MCP" class="tech-icon" loading="lazy">
+                        </div>
+                        <div class="tech-title-group">
+                            <h3 class="tech-title">MCP</h3>
+                            <span class="tech-tag">Protocolo IA</span>
+                        </div>
+                    </div>
+                    <p class="tech-desc">
+                        El <em>Model Context Protocol</em> es un estándar abierto desarrollado por Anthropic. Funciona como una conexión segura e inteligente bidireccional entre modelos de IA y bases de datos o herramientas, dándoles contexto en tiempo real.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>Práctica realizada por <strong>Diego Landa</strong> &bull; DevOps 2026</p>
+    </footer>
+
+    <!-- Script de Interactividad -->
+    <script src="js/main.js"></script>
+</body>
+</html>
